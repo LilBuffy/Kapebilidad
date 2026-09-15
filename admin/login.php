@@ -64,7 +64,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <button type="submit" class="login-btn">Log In</button>
     </form>
 
-    <p class="login-hint">Default account: admin / admin123<br>Created via database/create_admin.php</p>
+    <!--<p class="login-hint">Default account: admin / admin123<br>Created via database/create_admin.php</p>-->
   </div>
 </div>
 </body>
