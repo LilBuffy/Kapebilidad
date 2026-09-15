@@ -8,9 +8,11 @@ Pumasok ka, tingin ng menu, pili ng gusto mo, umorder.
 
 **Walang registration. Walang login. Walang "Create a strong password with 8 characters, special symbol, blood type, at pangalan ng iyong unang crush."** Diretso kape.
 
-## 🪦 Project Status
+## 🟢 Project Status
 
-**ABANDONED** kasi this is for the taong maitim ngani
+**ACTIVE / STILL ALIVE** BUT this is for the taong maitim ngani
+
+CLICK ME: https://kapebilidad.ct.ws/
 
 ## ✨ Mga Foodtrip
 
