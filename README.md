@@ -1,140 +1,33 @@
-# ☕ Kapebilidad
+# Kapebilidad
 
-**Kapebilidad** ay isang fucking simpleng sistema para sa cafe kung saan puwedeng umorder ang customer nang **hindi na kailangang gumawa ng account**.
+A fucking cafe ordering system built with **PHP, MySQL, HTML, CSS, and JavaScript**, made because apparently ordering coffee needed its own entire fucking website. Simple lang ang idea: pasok sa site, tingnan ang menu, pili ng pagkain o inumin, dagdag sa order, check mo yung total, then submit. Walang registration, walang login, walang "Create a strong password with 8 characters, special symbol, blood type, at pangalan ng iyong unang crush." Rekta kape.
 
-Ginawa ko 'to kasi yung negrong nagngangalang 'William Luba' ay babayaran ako kapag ginawa ko 'to soooo yes... i hate nig-
+**Project Status:** ACTIVE / STILL ALIVE BUT FOR THE MAITIM NA TAO
 
-Pumasok ka, tingin ng menu, pili ng gusto mo, umorder.
+**CLICK ME:** https://kapebilidad.ct.ws/
 
-**Walang registration. Walang login. Walang "Create a strong password with 8 characters, special symbol, blood type, at pangalan ng iyong unang crush."** Diretso kape.
+**WARNING:** Your antivirus or browser security might randomly decide na mukhang suspicious website ito. Hindi ako fucking hacker, relax. Cafe ordering system lang ito na may PHP backend at MySQL database. Check the source and repository if you're unsure instead of blindly trusting random shit from the internet.
 
-## 🟢 Project Status
+### What This Shit Can Do
 
-**ACTIVE / STILL ALIVE** BUT this is for the taong maitim ngani
+Kapebilidad lets customers browse the cafe menu, view product details, add food and drinks to their order, change quantities, review their cart, check the total price, submit orders without an account, view previous orders, and delete orders. May different drinks and food items din, including frappes, because apparently one fucking coffee was not enough. Basically, **Pumasok → Pumili → Umorder → Kape.**
 
-CLICK ME: https://kapebilidad.ct.ws/
+May hiwalay ding **Admin Panel** para sa pag manage ng products and orders. Admin can add, edit, delete, and control product availability, while also viewing order details and managing the system. Kung mali presyo ng kape, admin ang bahala. Kung sabay sabay pumasok ang 30 orders, good fucking luck.
 
-## ✨ Mga Foodtrip
+### Tech Stack
 
-* ☕ Tingnan ang mga produkto at menu ng cafe
-* 🛒 Magdagdag ng pagkain at inumin sa order
-* 🔢 Baguhin ang dami ng bawat produkto
-* 🧾 Suriin muna ang order bago isumite
-* 💸 Awtomatikong makikita ang kabuuang presyo
-* 📝 Umorder nang walang account
-* 📋 Tingnan ang kasaysayan ng mga order
-* 🗑️ Magtanggal ng mga order
-* 🥤 May Frappes at iba pang inumin
-* 📱 Maayos gamitin sa cellphone
-* 💻 Maayos gamitin sa computer
-* 👨‍💼 May hiwalay na Admin Panel para sa pamamahala ng system
-* 📦 Pamamahala ng mga produkto at order
-* 🕒 Tamang oras ng order gamit ang oras ng Pilipinas
+**PHP, MySQL, HTML, CSS, JavaScript, and XAMPP.**
 
-## 🧋 Paano Ts Gumagana?
+MySQL handles the actual system data including **products, categories, orders, order items, and other necessary information**. PHP handles the backend logic while HTML, CSS, and JavaScript handle the frontend. Simple stack lang. Walang unnecessary framework, walang 900 dependencies, at walang fucking microservices para lang makapag order ng frappe.
 
-### 1. Tingnan ang Menu
+### Responsive Design
 
-Pagpasok sa Kapebilidad, makikita agad ng customer ang mga available na pagkain at inumin.
+Kapebilidad is designed to work across **desktop, laptop, mobile, and tablet** screens. Basically, kahit saan mo gustong umorder ng kape, basta may browser ka, pwede na.
 
-**Hindi mo kailangang gumawa ng account para lang malaman kung magkano ang kape.**
+### About
 
-### 2. Pumili ng I-oorder
+This was originally made as a cafe ordering system for someone else, so basically I got paid in exchange for voluntarily creating another PHP project. Somehow naging proper ordering system with customer and admin sides, database handling, product management, order history, and responsive design.
 
-Piliin ang gusto mong pagkain o inumin at idagdag sa order.
+Simple cafe website dapat.
 
-Kung tatlong frappe gusto mo dahil "isa lang dapat" pero biglang naging tatlo, walang huhusga dito.
-
-### 3. Suriin ang Order
-
-Tingnan ang mga napili mo, dami, presyo, at kabuuang halaga.
-
-Dito mo mare-realize na:
-
-**"Putangina, ang dami ko palang inorder."**
-
-### 4. Isumite ang Order
-
-Kapag okay na ang lahat, edi submit mo na ang order.
-
-**Walang account. Walang login. Rekta order.**
-
-## 👤 Para sa Customer
-
-Ang customer ay maaaring:
-
-* Tingnan ang menu
-* Tingnan ang detalye ng produkto
-* Magdagdag ng produkto sa order
-* Baguhin ang dami ng produkto
-* Tingnan ang cart
-* Suriin ang kabuuang presyo
-* Maglagay ng order nang walang account
-* Tingnan ang mga dating order
-* Magtanggal ng order
-
-Ang pangunahing ideya:
-
-> **Pumasok → Pumili → Umorder → Kape.**
-
-Simple lang. Hindi kailangan gawing thesis ang pag-order ng iced coffee. 💀
-
-## 👨‍💼 Para sa Admin
-
-May sariling Admin Panel ang Kapebilidad para sa pamamahala ng cafe.
-
-Maaaring gamitin ng admin ang system para sa:
-
-* Pamamahala ng mga produkto
-* Pagdagdag ng produkto
-* Pag-edit ng produkto
-* Pagtanggal ng produkto
-* Pamamahala ng mga order
-* Pagtingin sa detalye ng order
-* Pagkontrol sa availability ng produkto
-* Pamamahala ng iba pang bahagi ng system
-
-Kung may maling presyo ng kape, **admin ang bahala.**
-
-Kung tatlumpung order ang sabay-sabay pumasok, **good luck, nigir.**
-
-## 🛠️ Mga Ginamit
-
-* **PHP**
-* **MySQL**
-* **HTML**
-* **CSS**
-* **JavaScript**
-* **XAMPP**
-
-## 🗄️ Database
-
-Gumagamit ang Kapebilidad ng MySQL para sa pag-iimbak at pamamahala ng mga datos ng system.
-
-Kabilang dito ang:
-
-* Mga produkto
-* Mga kategorya
-* Mga order
-* Mga item sa bawat order
-* Iba pang kinakailangang impormasyon ng system
-
-## 📱 Responsive Design
-
-Ginawa ang Kapebilidad para magamit sa iba't ibang device.
-
-* 💻 Computer
-* 🖥️ Laptop
-* 📱 Cellphone
-* 📟 Tablet
-
-Kahit saan mo gustong umorder ng kape, basta may browser ka, **pwede na.**
-
-## 🚀 Paano To Run Ts
-
-### Thingies needed:
-
-* XAMPP
-* PHP
-* MySQL
-* Web browser
+Naging fucking Kapebilidad.
