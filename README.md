@@ -1,6 +1,6 @@
 # Kapebilidad
 
-A fucking cafe ordering system built with **PHP, MySQL, HTML, CSS, and JavaScript**, made because apparently ordering coffee needed its own entire fucking website. Simple lang ang idea: pasok sa site, tingnan ang menu, pili ng pagkain o inumin, dagdag sa order, check mo yung total, then submit. Walang registration, walang login, walang "Create a strong password with 8 characters, special symbol, blood type, at pangalan ng iyong unang crush." Rekta kape.
+A fucking cafe ordering system built with **PHP, MySQL, HTML, CSS, and JavaScript**, made because apparently ordering coffee needed its own entire fucking website (And also pinagawa to sakin ng negrong nagngangalang William Luba and babayaran nya ko so yes i hate nig-). Simple lang ang idea: pasok sa site, tingnan ang menu, pili ng pagkain o inumin, dagdag sa order, check mo yung total, then submit. Walang registration, walang login, walang "Create a strong password with 8 characters, special symbol, blood type, at pangalan ng iyong unang crush." Rekta kape.
 
 **Project Status:** ACTIVE / STILL ALIVE BUT FOR THE MAITIM NA TAO
 
