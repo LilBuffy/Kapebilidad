@@ -4,7 +4,7 @@ date_default_timezone_set('Asia/Manila');
 
 // IMPORTANT TO NIGGA
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'kapebilidad');
+define('DB_NAME', 'FUCKYOU');
 define('DB_USER', 'root');
 define('DB_PASS', '');
 define('DB_CHARSET', 'utf8mb4');
