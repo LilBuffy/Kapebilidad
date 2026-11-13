@@ -1,0 +1,3 @@
+<FilesMatch "(?i)\.(xml|xsd)$">
+  Require all denied
+</FilesMatch>

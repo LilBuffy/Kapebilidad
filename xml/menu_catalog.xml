@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menuCatalog version="1.0" generatedAt="2026-10-22T04:45:18+08:00">
+  <currency>PHP</currency>
+  <sizes>
+    <size id="1" available="true" displayOrder="1">
+      <name>Tall</name>
+      <defaultExtraPrice>0.00</defaultExtraPrice>
+    </size>
+    <size id="2" available="true" displayOrder="2">
+      <name>Medio</name>
+      <defaultExtraPrice>10.00</defaultExtraPrice>
+    </size>
+    <size id="3" available="true" displayOrder="3">
+      <name>Grande</name>
+      <defaultExtraPrice>20.00</defaultExtraPrice>
+    </size>
+  </sizes>
+  <addons>
+    <addon id="1" available="true" displayOrder="1">
+      <name>Pearl</name>
+      <price>15.00</price>
+      <maxQuantity>3</maxQuantity>
+    </addon>
+    <addon id="2" available="true" displayOrder="2">
+      <name>Cream Cheese</name>
+      <price>25.00</price>
+      <maxQuantity>3</maxQuantity>
+    </addon>
+    <addon id="3" available="true" displayOrder="3">
+      <name>Nata</name>
+      <price>15.00</price>
+      <maxQuantity>3</maxQuantity>
+    </addon>
+    <addon id="4" available="true" displayOrder="4">
+      <name>Coffee Jelly</name>
+      <price>15.00</price>
+      <maxQuantity>3</maxQuantity>
+    </addon>
+    <addon id="5" available="true" displayOrder="5">
+      <name>Extra Shot</name>
+      <price>20.00</price>
+      <maxQuantity>3</maxQuantity>
+    </addon>
+    <addon id="6" available="true" displayOrder="6">
+      <name>Oat Milk</name>
+      <price>15.00</price>
+      <maxQuantity>1</maxQuantity>
+    </addon>
+    <addon id="7" available="true" displayOrder="7">
+      <name>Extra Foam</name>
+      <price>10.00</price>
+      <maxQuantity>1</maxQuantity>
+    </addon>
+    <addon id="8" available="true" displayOrder="8">
+      <name>Extra Whipped Cream</name>
+      <price>10.00</price>
+      <maxQuantity>1</maxQuantity>
+    </addon>
+    <addon id="9" available="true" displayOrder="9">
+      <name>Choco Drizzle</name>
+      <price>10.00</price>
+      <maxQuantity>1</maxQuantity>
+    </addon>
+    <addon id="10" available="true" displayOrder="10">
+      <name>Extra Cookie Crumbs</name>
+      <price>15.00</price>
+      <maxQuantity>1</maxQuantity>
+    </addon>
+    <addon id="11" available="true" displayOrder="11">
+      <name>Extra Cheese</name>
+      <price>15.00</price>
+      <maxQuantity>1</maxQuantity>
+    </addon>
+    <addon id="12" available="true" displayOrder="12">
+      <name>Extra Ham</name>
+      <price>20.00</price>
+      <maxQuantity>1</maxQuantity>
+    </addon>
+  </addons>
+  <categories>
+    <category id="1" slug="kape-muna" drink="true" displayOrder="1">
+      <name>Kape Muna</name>
+      <products>
+        <product id="1" available="true" bestseller="true">
+          <name>Cafe Kapebilidad</name>
+          <description>Our signature house blend espresso with steamed milk and a hint of caramel.</description>
+          <basePrice>120.00</basePrice>
+          <image>kape-muna-1.jpg</image>
+          <sizes>
+            <size sizeId="1" available="true">
+              <extraPrice>0.00</extraPrice>
+            </size>
+            <size sizeId="2" available="true">
+              <extraPrice>10.00</extraPrice>
+            </size>
+            <size sizeId="3" available="true">
+              <extraPrice>20.00</extraPrice>
+            </size>
+          </sizes>
+          <addons>
+            <addonRef addonId="1"/>
+            <addonRef addonId="2"/>
+            <addonRef addonId="3"/>
+            <addonRef addonId="4"/>
+            <addonRef addonId="5"/>
+            <addonRef addonId="6"/>
+            <addonRef addonId="7"/>
+          </addons>
+        </product>
+        <product id="2" available="true" bestseller="false">
+          <name>Spanish Latte</name>
+          <description>Rich espresso balanced with condensed milk for a smooth, sweet finish.</description>
+          <basePrice>130.00</basePrice>
+          <image>kape-muna-2.jpg</image>
+          <sizes>
+            <size sizeId="1" available="true">
+              <extraPrice>0.00</extraPrice>
+            </size>
+            <size sizeId="2" available="true">
+              <extraPrice>10.00</extraPrice>
+            </size>
+            <size sizeId="3" available="true">
+              <extraPrice>20.00</extraPrice>
+            </size>
+          </sizes>
+          <addons>
+            <addonRef addonId="1"/>
+            <addonRef addonId="2"/>
+            <addonRef addonId="3"/>
+            <addonRef addonId="4"/>
+            <addonRef addonId="5"/>
+            <addonRef addonId="6"/>
+            <addonRef addonId="7"/>
+          </addons>
+        </product>
+        <product id="3" available="true" bestseller="true">
+          <name>Iced Caramel Macchiato</name>
+          <description>Espresso layered with vanilla milk and caramel drizzle over ice.</description>
+          <basePrice>140.00</basePrice>
+          <image>kape-muna-3.jpg</image>
+          <sizes>
+            <size sizeId="1" available="true">
+              <extraPrice>0.00</extraPrice>
+            </size>
+            <size sizeId="2" available="true">
+              <extraPrice>10.00</extraPrice>
+            </size>
+            <size sizeId="3" available="true">
+              <extraPrice>20.00</extraPrice>
+            </size>
+          </sizes>
+          <addons>
+            <addonRef addonId="1"/>
+            <addonRef addonId="2"/>
+            <addonRef addonId="3"/>
+            <addonRef addonId="4"/>
+            <addonRef addonId="5"/>
+            <addonRef addonId="6"/>
+            <addonRef addonId="7"/>
+          </addons>
+        </product>
+      </products>
+    </category>
+    <category id="2" slug="walang-kape" drink="true" displayOrder="2">
+      <name>Walang Kape</name>
+      <products>
+        <product id="4" available="true" bestseller="true">
+          <name>Matcha Latte</name>
+          <description>Premium Japanese matcha whisked with fresh steamed milk.</description>
+          <basePrice>135.00</basePrice>
+          <image>walang-kape-1.jpg</image>
+          <sizes>
+            <size sizeId="1" available="true">
+              <extraPrice>0.00</extraPrice>
+            </size>
+            <size sizeId="2" available="true">
+              <extraPrice>10.00</extraPrice>
+            </size>
+            <size sizeId="3" available="true">
+              <extraPrice>20.00</extraPrice>
+            </size>
+          </sizes>
+          <addons>
+            <addonRef addonId="1"/>
+            <addonRef addonId="2"/>
+            <addonRef addonId="3"/>
+            <addonRef addonId="4"/>
+            <addonRef addonId="5"/>
+          </addons>
+        </product>
+        <product id="5" available="true" bestseller="false">
+          <name>Chocolate Supreme</name>
+          <description>Velvety dark chocolate drink topped with whipped cream.</description>
+          <basePrice>125.00</basePrice>
+          <image>walang-kape-2.jpg</image>
+          <sizes>
+            <size sizeId="1" available="true">
+              <extraPrice>0.00</extraPrice>
+            </size>
+            <size sizeId="2" available="true">
+              <extraPrice>10.00</extraPrice>
+            </size>
+            <size sizeId="3" available="true">
+              <extraPrice>20.00</extraPrice>
+            </size>
+          </sizes>
+          <addons>
+            <addonRef addonId="1"/>
+            <addonRef addonId="2"/>
+            <addonRef addonId="3"/>
+            <addonRef addonId="4"/>
+            <addonRef addonId="5"/>
+          </addons>
+        </product>
+        <product id="6" available="true" bestseller="false">
+          <name>Taro Milk Tea</name>
+          <description>Creamy taro flavored milk tea with chewy tapioca pearls.</description>
+          <basePrice>130.00</basePrice>
+          <image>walang-kape-3.jpg</image>
+          <sizes>
+            <size sizeId="1" available="true">
+              <extraPrice>0.00</extraPrice>
+            </size>
+            <size sizeId="2" available="true">
+              <extraPrice>10.00</extraPrice>
+            </size>
+            <size sizeId="3" available="true">
+              <extraPrice>20.00</extraPrice>
+            </size>
+          </sizes>
+          <addons>
+            <addonRef addonId="1"/>
+            <addonRef addonId="2"/>
+            <addonRef addonId="3"/>
+            <addonRef addonId="4"/>
+            <addonRef addonId="5"/>
+          </addons>
+        </product>
+      </products>
+    </category>
+    <category id="3" slug="refresher" drink="true" displayOrder="3">
+      <name>Refresher</name>
+      <products>
+        <product id="7" available="true" bestseller="false">
+          <name>Blue Lemonade Refresher</name>
+          <description>Sparkling blue lemonade with fresh calamansi and mint.</description>
+          <basePrice>110.00</basePrice>
+          <image>refresher-1.jpg</image>
+          <sizes>
+            <size sizeId="1" available="true">
+              <extraPrice>0.00</extraPrice>
+            </size>
+            <size sizeId="2" available="true">
+              <extraPrice>10.00</extraPrice>
+            </size>
+            <size sizeId="3" available="true">
+              <extraPrice>20.00</extraPrice>
+            </size>
+          </sizes>
+          <addons>
+            <addonRef addonId="1"/>
+            <addonRef addonId="2"/>
+            <addonRef addonId="3"/>
+            <addonRef addonId="4"/>
+            <addonRef addonId="5"/>
+          </addons>
+        </product>
+        <product id="8" available="true" bestseller="true">
+          <name>Strawberry Fizz</name>
+          <description>Fresh strawberry puree with soda water and lime.</description>
+          <basePrice>115.00</basePrice>
+          <image>refresher-2.jpg</image>
+          <sizes>
+            <size sizeId="1" available="true">
+              <extraPrice>0.00</extraPrice>
+            </size>
+            <size sizeId="2" available="true">
+              <extraPrice>10.00</extraPrice>
+            </size>
+            <size sizeId="3" available="true">
+              <extraPrice>20.00</extraPrice>
+            </size>
+          </sizes>
+          <addons>
+            <addonRef addonId="1"/>
+            <addonRef addonId="2"/>
+            <addonRef addonId="3"/>
+            <addonRef addonId="4"/>
+            <addonRef addonId="5"/>
+          </addons>
+        </product>
+        <product id="9" available="true" bestseller="false">
+          <name>Passionfruit Cooler</name>
+          <description>Tangy passionfruit juice blended with lychee and soda.</description>
+          <basePrice>115.00</basePrice>
+          <image>refresher-3.jpg</image>
+          <sizes>
+            <size sizeId="1" available="true">
+              <extraPrice>0.00</extraPrice>
+            </size>
+            <size sizeId="2" available="true">
+              <extraPrice>10.00</extraPrice>
+            </size>
+            <size sizeId="3" available="true">
+              <extraPrice>20.00</extraPrice>
+            </size>
+          </sizes>
+          <addons>
+            <addonRef addonId="1"/>
+            <addonRef addonId="2"/>
+            <addonRef addonId="3"/>
+            <addonRef addonId="4"/>
+            <addonRef addonId="5"/>
+          </addons>
+        </product>
+      </products>
+    </category>
+    <category id="4" slug="frappes" drink="true" displayOrder="4">
+      <name>Frappes</name>
+      <products>
+        <product id="10" available="true" bestseller="true">
+          <name>Java Chip Frappe</name>
+          <description>Blended coffee frappe loaded with chocolate chips and whipped cream.</description>
+          <basePrice>150.00</basePrice>
+          <image>frappe-1.jpg</image>
+          <sizes>
+            <size sizeId="1" available="true">
+              <extraPrice>0.00</extraPrice>
+            </size>
+            <size sizeId="2" available="true">
+              <extraPrice>10.00</extraPrice>
+            </size>
+            <size sizeId="3" available="true">
+              <extraPrice>20.00</extraPrice>
+            </size>
+          </sizes>
+          <addons>
+            <addonRef addonId="1"/>
+            <addonRef addonId="2"/>
+            <addonRef addonId="3"/>
+            <addonRef addonId="4"/>
+            <addonRef addonId="5"/>
+            <addonRef addonId="8"/>
+            <addonRef addonId="9"/>
+          </addons>
+        </product>
+        <product id="11" available="true" bestseller="false">
+          <name>Caramel Frappe</name>
+          <description>Buttery caramel blended with espresso, milk, and ice, topped with drizzle.</description>
+          <basePrice>145.00</basePrice>
+          <image>frappe-2.jpg</image>
+          <sizes>
+            <size sizeId="1" available="true">
+              <extraPrice>0.00</extraPrice>
+            </size>
+            <size sizeId="2" available="true">
+              <extraPrice>10.00</extraPrice>
+            </size>
+            <size sizeId="3" available="true">
+              <extraPrice>20.00</extraPrice>
+            </size>
+          </sizes>
+          <addons>
+            <addonRef addonId="1"/>
+            <addonRef addonId="2"/>
+            <addonRef addonId="3"/>
+            <addonRef addonId="4"/>
+            <addonRef addonId="5"/>
+            <addonRef addonId="8"/>
+            <addonRef addonId="9"/>
+          </addons>
+        </product>
+        <product id="12" available="true" bestseller="false">
+          <name>Cookies and Cream Frappe</name>
+          <description>Crushed chocolate cookies blended with creamy milk and ice.</description>
+          <basePrice>145.00</basePrice>
+          <image>frappe-3.jpg</image>
+          <sizes>
+            <size sizeId="1" available="true">
+              <extraPrice>0.00</extraPrice>
+            </size>
+            <size sizeId="2" available="true">
+              <extraPrice>10.00</extraPrice>
+            </size>
+            <size sizeId="3" available="true">
+              <extraPrice>20.00</extraPrice>
+            </size>
+          </sizes>
+          <addons>
+            <addonRef addonId="1"/>
+            <addonRef addonId="2"/>
+            <addonRef addonId="3"/>
+            <addonRef addonId="4"/>
+            <addonRef addonId="5"/>
+            <addonRef addonId="8"/>
+            <addonRef addonId="10"/>
+          </addons>
+        </product>
+      </products>
+    </category>
+    <category id="5" slug="snacks" drink="false" displayOrder="5">
+      <name>Snacks</name>
+      <products>
+        <product id="13" available="true" bestseller="true">
+          <name>Ensaymada Supreme</name>
+          <description>Soft buttery ensaymada topped with cheese and sugar.</description>
+          <basePrice>65.00</basePrice>
+          <image>snacks-1.jpg</image>
+          <sizes/>
+          <addons/>
+        </product>
+        <product id="14" available="true" bestseller="false">
+          <name>Cheese Pandesal Sandwich</name>
+          <description>Warm pandesal filled with melted cheese and ham.</description>
+          <basePrice>75.00</basePrice>
+          <image>snacks-2.jpg</image>
+          <sizes/>
+          <addons>
+            <addonRef addonId="11"/>
+            <addonRef addonId="12"/>
+          </addons>
+        </product>
+        <product id="15" available="true" bestseller="false">
+          <name>Chocolate Chip Cookie</name>
+          <description>Freshly baked cookie loaded with chocolate chips.</description>
+          <basePrice>55.00</basePrice>
+          <image>snacks-3.jpg</image>
+          <sizes/>
+          <addons/>
+        </product>
+      </products>
+    </category>
+  </categories>
+</menuCatalog>

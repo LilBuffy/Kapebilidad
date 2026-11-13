@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:simpleType name="Money">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="100000"/>
+      <xs:fractionDigits value="2"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="Name">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="100"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="Slug">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-z0-9]+(-[a-z0-9]+)*"/>
+      <xs:maxLength value="50"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="Description">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="255"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="Quantity">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="10"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="SizeDefinition">
+    <xs:sequence>
+      <xs:element name="name" type="Name"/>
+      <xs:element name="defaultExtraPrice" type="Money"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+    <xs:attribute name="available" type="xs:boolean" use="required"/>
+    <xs:attribute name="displayOrder" type="xs:nonNegativeInteger"/>
+  </xs:complexType>
+
+  <xs:complexType name="AddonDefinition">
+    <xs:sequence>
+      <xs:element name="name" type="Name"/>
+      <xs:element name="price" type="Money"/>
+      <xs:element name="maxQuantity" type="Quantity"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+    <xs:attribute name="available" type="xs:boolean" use="required"/>
+    <xs:attribute name="displayOrder" type="xs:nonNegativeInteger"/>
+  </xs:complexType>
+
+  <xs:complexType name="ProductSize">
+    <xs:sequence>
+      <xs:element name="extraPrice" type="Money"/>
+    </xs:sequence>
+    <xs:attribute name="sizeId" type="xs:positiveInteger" use="required"/>
+    <xs:attribute name="available" type="xs:boolean" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="AddonRef">
+    <xs:attribute name="addonId" type="xs:positiveInteger" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="Product">
+    <xs:sequence>
+      <xs:element name="name" type="Name"/>
+      <xs:element name="description" type="Description"/>
+      <xs:element name="basePrice" type="Money"/>
+      <xs:element name="image" type="xs:string" minOccurs="0"/>
+      <xs:element name="sizes">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="size" type="ProductSize" minOccurs="0" maxOccurs="10"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="addons">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="addonRef" type="AddonRef" minOccurs="0" maxOccurs="100"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+    <xs:attribute name="available" type="xs:boolean" use="required"/>
+    <xs:attribute name="bestseller" type="xs:boolean" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="Category">
+    <xs:sequence>
+      <xs:element name="name" type="Name"/>
+      <xs:element name="products">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="product" type="Product" minOccurs="0" maxOccurs="500"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+    <xs:attribute name="slug" type="Slug" use="required"/>
+    <xs:attribute name="drink" type="xs:boolean" use="required"/>
+    <xs:attribute name="displayOrder" type="xs:nonNegativeInteger"/>
+  </xs:complexType>
+
+  <xs:element name="menuCatalog">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="currency" type="xs:string"/>
+        <xs:element name="sizes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="size" type="SizeDefinition" minOccurs="0" maxOccurs="10"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="addons">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="addon" type="AddonDefinition" minOccurs="0" maxOccurs="100"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="categories">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="category" type="Category" minOccurs="0" maxOccurs="50"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="version" type="xs:string" use="required"/>
+      <xs:attribute name="generatedAt" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
